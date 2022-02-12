@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(3, 300px);
+}
+
+.box {
+  background-color: white;
+  border: 5px dotted black;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle:before {
+  content: "\25CF";
+  font-size: 400px;
+}
+
+.cross:before {
+  content: "\2573";
+  font-size: 200px;
+}
+
