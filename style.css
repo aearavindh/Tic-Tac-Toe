@@ -30,3 +30,15 @@ main {
   font-size: 20vh;
 }
 
+@media only screen and (max-width: 600px) {
+  main {
+    grid-template-columns: repeat(3, 20vh);
+    grid-template-rows: repeat(3, 20vh);
+  }
+  .circle:before {
+    font-size: 30vh;
+  }
+  .cross:before {
+    font-size: 15vh;
+  }
+}
