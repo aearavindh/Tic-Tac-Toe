@@ -32,13 +32,13 @@ main {
 
 @media only screen and (max-width: 600px) {
   main {
-    grid-template-columns: repeat(3, 20vh);
-    grid-template-rows: repeat(3, 20vh);
+    grid-template-columns: repeat(3, 15vh);
+    grid-template-rows: repeat(3, 15vh);
   }
   .circle:before {
-    font-size: 30vh;
+    font-size: 20vh;
   }
   .cross:before {
-    font-size: 15vh;
+    font-size: 10vh;
   }
 }
